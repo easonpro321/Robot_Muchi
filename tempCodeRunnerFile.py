@@ -14,7 +14,9 @@ os.chdir(r'C:\Users\eason\Documents\All\projects\3DPrints\Robot_Muchi\code\Data_
 commands = [
     "git init",
     "git add .",
-    'git commit -m "first commit"'
+    'git commit -m "Pytesseract confidence levels"',
+    "git pull origin main --allow-unrelated-histories",  
+    "git push origin main"
 ]
 
 
